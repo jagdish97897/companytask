@@ -1,0 +1,67 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.chart-container {
+  margin-bottom: 20px;
+}
+
+.table-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Added margin bottom for spacing */
+}
+
+.table-container h2 {
+  margin-bottom: 10px;
+}
+
+/* Adjusted border styles for table cells */
+.table-container table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.table-container th,
+.table-container td {
+  border: 1px solid black; /* Changed border color */
+  padding: 8px;
+}
+
+.table-container th {
+  background-color: #f2f2f2;
+}
+
+/* Optional: Add hover effect to table rows */
+.table-container tr:hover {
+  background-color: #ddd;
+}
+
+/* Optional: Add styling for the loader */
+.Chart .loader {
+  font-size: 16px;
+  color: #888;
+  margin-top: 20px;
+}
+
+/* Optional: Add border to the chart */
+.Chart .google-visualization-chart {
+  border: 1px solid #ccc;
+}
+
+/* Optional: Add margin to the chart area */
+.Chart .google-visualization-chart:not(.google-visualization-table) {
+  margin-bottom: 20px;
+}
